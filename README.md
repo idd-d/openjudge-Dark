@@ -1,4 +1,4 @@
-# OpenJudge Dark Mode (OpenJudge 深色模式脚本)
+# OpenJudge 深色模式脚本
 
 这是一个用于 [OpenJudge](http://openjudge.cn/) 在线评测系统的 Tampermonkey (油猴) 用户脚本。它为网站添加了一个全局深色模式（Dark Mode），不仅适用于题目列表和文字内容，还特别针对**代码块**和**表格**进行了配色优化，以减轻长时间刷题时的眼部疲劳。
 
@@ -45,16 +45,3 @@
 
 * **浏览器**: Chrome, Edge, Firefox, Safari (配合 Userscripts 插件).
 * **网址**: 匹配 `http://dsa.openjudge.cn/*` 及所有 `http://*.openjudge.cn/*`。
-
-## 📝 更新日志
-
-* **v1.1**: 
-    * 新增右下角悬浮切换按钮。
-    * 增加 `GM_setValue` / `GM_getValue` 本地存储支持，记忆用户偏好。
-    * 优化代码高亮块（SyntaxHighlighter）的背景色。
-* **v1.0**: 
-    * 基础 CSS 注入，实现全局反色。
-
-## ⚠️ 免责声明
-
-本脚本为第三方工具，与 OpenJudge 官方无关。样式修改仅在本地浏览器生效，不会影响服务器数据或判题结果。
